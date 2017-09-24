@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+  padding: 2px;
+  color: #fff;
+  background-color: #108ee9;
+  cursor: pointer;
+}
+button[disabled] {
+  color: rgba(0,0,0,.25);
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+}
+.err-hint {
+  color: red;
+  animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
