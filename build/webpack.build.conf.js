@@ -66,7 +66,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      title: 'React frame',
+      title: 'Count Down',
       filename: config.build.index,
       template: 'index.html',
       inject: true,
