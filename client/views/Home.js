@@ -48,7 +48,8 @@ class Demo2 extends React.Component {
   }
   btnHandler () {
     this.setState({
-      errHint: ''
+      errHint: '',
+      btnReset: false
     })
     // fetch api
     setTimeout(() => {

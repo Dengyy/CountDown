@@ -16,7 +16,7 @@ class CountDownBtn extends React.Component {
     this.countDownHandler = this.countDownHandler.bind(this)
   }
   componentWillReceiveProps (nextProps) {
-    if (nextProps.reset) {
+    if (nextProps.reset && nextProps.reset !== this.props.reset) {
       this.reset()
     }
   }
