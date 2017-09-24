@@ -30,7 +30,7 @@ Then use it:
 ```
 
 ## Example
-Visit [this page](https://dengyy.github.io/index.html).
+Visit [this page](https://dengyy.github.io/CountDown/dist/index.html).
 
 ## API
 | Option        | Description                                 | Value    | Default          |

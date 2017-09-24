@@ -52,7 +52,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   },
   output: {
     filename: utils.assetsPath('js/[name].[chunkhash].js'),
-    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js'),
+    publicPath: 'https://dengyy.github.io/CountDown/dist/'
   },
   plugins: [
     new webpack.DefinePlugin({
