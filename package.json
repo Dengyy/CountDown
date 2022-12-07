@@ -63,7 +63,7 @@
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
     "eventsource-polyfill": "^0.9.6",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "extract-text-webpack-plugin": "1.0.1",
     "fastclick": "^1.0.6",
     "fbjs": "^0.8.2",
